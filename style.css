@@ -93,6 +93,9 @@ body{
     max-height: 739px;
     overflow: auto;
 }
+.skills .skills-card > md-card-content {
+    height: 100%;
+}
 .style-1::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
