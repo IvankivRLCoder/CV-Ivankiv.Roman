@@ -89,7 +89,7 @@ body{
     max-height: 743px;
     overflow: auto;
 }
-.skills .about{
+.skills .about ,.skills .skills-card{
     max-height: 739px;
     overflow: auto;
 }
