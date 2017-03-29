@@ -2,85 +2,93 @@ body::-webkit-scrollbar {
     width: 0;
 }
 body{
-    background-color: #565656;
+    background-color: #f4f5f9;
 }
 #toolbar{
     background-color: #565656;
 }
 .left-content{
-    background-color: #565656;
+    background-color:  #f4f5f9;
 }
 .card-title{
-    background-color: #323232;
+    background-color: rgba(204, 204, 204, 0.4);
 }
 .md-display-1{
-    color: rgba(139, 195, 74, 0.75);
+    color: rgba(107, 102, 102, 0.99);
+    text-align: center;
 }
 .md-subhead{
-    color: rgba(139, 195, 74, 0.75);
+    color: rgba(107, 102, 102, 0.99);
 }
 .contacts{
     background-color: #323232;
 }
 .h-contacts{
-    color: orange;
+    color: rgba(107, 102, 102, 0.99);
 }
 .sm-item-contacts{
-    background-color: #323232;
-    color: rgba(139, 195, 74, 0.75);
+    background-color:rgba(204, 204, 204, 0.4);
+    color: rgba(107, 102, 102, 0.99);
 }
 .card-content{
     background-color: transparent;
 }
 .link{
-    background-color: #323232;
+    background-color: rgba(204, 204, 204, 0.4);
     border-radius: 5px;
 }
 .link-button{
-    color: rgba(139, 195, 74, 0.75);
+    color: rgba(107, 102, 102, 0.99);
 }
 .skills{
-    background-color: #565656;
+    background-color: #f4f5f9;
 }
 .skills-card{
-    background-color: #323232;
+    background-color: rgba(207, 216, 220, 0.18);
 }
 .sm-item-skill{
-    background-color: rgba(139, 195, 74, 0.65);
+    background-color: #C5E1A5;
 }
 .sm-item-about{
-    background-color: #565656;
+    background-color: rgba(204, 204, 204, 0.4);
 }
 .about{
-    background-color: #323232;
+    background-color: rgba(207, 216, 220, 0.18);
 }
 .about-p{
-    color: rgb(222, 185, 73);
+    color: rgba(107, 102, 102, 0.99);
 }
 .wring{
-    background-color: rgba(244, 67, 54, 0.42);
-    color: white;
+    background-color: #EF9A9A;
+    color: white; 
+}
+.wring h3{
+    text-align: center;
 }
 .experience{
-    background-color: #565656;
+    background-color: rgba(207, 216, 220, 0.18);
 }
 .education{
-    background-color: #323232;
+    background-color: rgba(207, 216, 220, 0.18);
+}
+.education > div > div{
+    margin: 0 auto;
 }
 .h-contatent{
-    color: orange;
+    color: rgba(107, 102, 102, 0.99);
+    text-align: center;
 }
 .copy{
     text-decoration: none;
 }
 .expButtom{
-    background-color: rgba(139, 195, 74, 0.75);
+    background-color: #C5E1A5;
 }
 .expButtom:hover{
-    color: rgba(139, 195, 74, 0.75);
+    color: rgba(107, 102, 102, 0.99);
 }
 .content-fotos{
-    background-color: #565656;
+    background-color: #f4f5f9;
 }
 .about-fotos{
     background-color: #565656;
@@ -99,14 +107,14 @@ body{
 .style-1::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
-    background-color: #323232;
+    background-color: rgba(207, 216, 220, 0.18);
 }
 .style-1::-webkit-scrollbar {
     width: 12px;
-    background-color: #323232;
+    background-color: rgba(207, 216, 220, 0.18);
 }
 .style-1::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #984e48;
+    background-color: rgba(207, 216, 220, 0.18);
 }
