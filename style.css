@@ -123,4 +123,12 @@ body{
     .h-contatent{
         text-align: center;
     }
+
 }
+@media screen and (max-width: 420px) {
+    .skills .about, .skills .skills-card {
+        max-height: 1000px;
+    }
+}
+
+
