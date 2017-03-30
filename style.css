@@ -130,7 +130,9 @@ a {
     .h-contatent{
         text-align: center;
     }
-
+    .md-subhead {
+        text-align: center;
+    }
 }
 @media screen and (max-width: 420px) {
     .skills .about, .skills .skills-card {
