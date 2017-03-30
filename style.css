@@ -1,8 +1,15 @@
+*{
+    font-family: "lato", sans-serif;
+}
 body::-webkit-scrollbar {
     width: 0;
 }
 body{
     background-color: #f4f5f9;
+}
+a {
+    text-decoration: none;
+    color: rgba(107, 102, 102, 0.99) !important;
 }
 #toolbar{
     background-color: #565656;
@@ -58,8 +65,8 @@ body{
     color: rgba(107, 102, 102, 0.99);
 }
 .wring{
-    background-color: #EF9A9A;
-    color: white; 
+    background-color: #f4f5f9;
+    color: rgb(109, 104, 104);
 }
 .experience{
     background-color: rgba(207, 216, 220, 0.18);
