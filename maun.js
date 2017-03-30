@@ -1,7 +1,7 @@
 "use strict";
 angular.module('dialogDemo2', ['ngMaterial']).controller('AppCtrl', function($scope, $mdDialog) {
     $scope.openOffscreen0 = function() {
-        $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('Front End developer 06.2016-to ').textContent("I'm specialized on frontend development. I gained experience and qualified consulting on the topics: AngularJS, jQuery; Angular Material, Bootstrap, Materializecss,  Muse; HTML5, CSS3, CSS, Electron, d3.js. Developed promotion banner animations using GreenSock js library. Learnt about the specifics of Drupal 8 and Magento 1.9. ").ariaLabel('Offscreen Demo').ok('Esc').openFrom({
+        $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('Front End developer 05.2016-to ').textContent("I'm specialized on frontend development. I gained experience and qualified consulting on the topics: AngularJS, jQuery; Angular Material, Bootstrap, Materializecss,  Muse; HTML5, CSS3, CSS, Electron, d3.js. Developed promotion banner animations using GreenSock js library. Learnt about the specifics of Drupal 8 and Magento 1.9. ").ariaLabel('Offscreen Demo').ok('Esc').openFrom({
             top: -50,
             width: 30,
             height: 80
