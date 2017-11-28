@@ -1,7 +1,8 @@
 "use strict";
 angular.module('dialogDemo2', ['ngMaterial']).controller('AppCtrl', function ($scope, $mdDialog) {
     $scope.openOffscreen0 = function () {
-        $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('Front End developer 06.2016-05.2017 ').textContent("I'm specialized on frontend development. I gained experience and qualified consulting on the topics: AngularJS, jQuery; Angular Material, Bootstrap, Materializecss,  Muse; HTML5, CSS3; Electron, d3.js; Learnt about the specifics of Drupal 8 and Magento 1.9. ").ariaLabel('Offscreen Demo').ok('Esc').openFrom({
+        $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('Front End developer 06.2016-05.2017 ').textContent("I'm specialized on frontend development. I gained experience and qualified consulting on the topics: AngularJS, jQuery; Angular Material, Bootstrap, Materializecss,  Muse; HTML5, CSS3, CSS, Electron, d3.js. Developed promotion banner animations using GreenSock js library. Learnt about the specifics of Drupal 8 and Magento 1.9. ").ariaLabel('Offscreen Demo').ok('Esc').openFrom({
+
             top: -50,
             width: 30,
             height: 80
@@ -10,6 +11,7 @@ angular.module('dialogDemo2', ['ngMaterial']).controller('AppCtrl', function ($s
         }));
     };
     $scope.openOffscreen1 = function () {
+
         $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('FrontEnd Student. 02.2016-06.2016').textContent('I studied and used in practice: JavaScript, frameworks like jQuery, AngularJS, NodeJS librires, tools for front-end development and how to work in a team. The Git, GitHub, HTML5, CSS3, SASS, Gulp. Each of these pieces I used to practice doing homework. Once we did the game tanks I was team leader for the participation of 5 people. I am happy with my studies because teachers had the coolest!').ariaLabel('Offscreen Demo').ok('Esc').openFrom({
             top: -50,
             width: 30,
@@ -20,6 +22,7 @@ angular.module('dialogDemo2', ['ngMaterial']).controller('AppCtrl', function ($s
     };
     $scope.openOffscreen2 = function () {
         $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('FrontEnd developer in Atlassian addons development at BrizoIT. 05.2017-to').textContent("I'm specialized on add-on development and consulting with regards to Atlassian products. I gained experience and qualified consulting on the topics: Angular 2-5; SCSS; REST API; JIRA;").ariaLabel('Offscreen Demo').ok('Esc').openFrom({
+
             top: -50,
             width: 30,
             height: 80
@@ -29,6 +32,7 @@ angular.module('dialogDemo2', ['ngMaterial']).controller('AppCtrl', function ($s
     };
     $scope.openOffscreen3 = function () {
         $mdDialog.show($mdDialog.alert().clickOutsideToClose(true).title('Supervisor team of 6 employees. 07.2014-08.2015').textContent('At first I worked as a manager to work with customers, was subsequently elevated to the position of the middle manager. Supervisor team of 6 employees, the average development manager sales team and expanding markets. Personal work with strategic customers. The result is the creation from scratch of training as a result of performance of the team and good results.').ariaLabel('Offscreen Demo').ok('Esc').openFrom({
+
             top: -50,
             width: 30,
             height: 80
