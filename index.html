@@ -22,7 +22,7 @@
         <md-card flex class="card-title" layout="row">
             <mb-card flex>
 
-                    <img class="md-user-avatar" src="img/avatar.png" alt="photo is missing">
+                <img class="md-user-avatar" src="img/avatar.png" alt="photo is missing">
 
             </mb-card>
             <mb-card flex layout-align="center center" layout="column">
@@ -30,7 +30,9 @@
                     <md-card-header-text layout="column" layout-align="center center">
                         <span class="md-display-1">
                             Roman Ivankiv
-                        </span><br/>
+
+                        </span>
+                        <br/>
                         <span class="md-subhead md-body-3">
                             Front-End Developer
                         </span>
@@ -41,7 +43,7 @@
                 </mb-card-content>
             </mb-card>
         </md-card>
-        <mb-card-actions layout="row" layout-align="space-around end" >
+        <mb-card-actions layout="row" layout-align="space-around end">
             <md-card-content class="card-content" layout="row" layout-align="center center">
                 <h4 class="link" layout="row" layout-align="start center" layout-wrap>
                     <md-button class="link-button" ng-href="https://www.linkedin.com/in/romanivankiv" target="_blank">Linkedin</md-button>
@@ -52,18 +54,15 @@
                     <md-button class="link-button" ng-href="https://www.facebook.com/roman.ivankiv.58" target="_blank">Facebook</md-button>
                 </h4>
             </md-card-content>
-            <md-card-content class="card-content" layout="row" layout-align="center center">
-                <h4 class="link" layout="row" layout-align="start center" layout-wrap>
-                    <md-button class="link-button" ng-href="https://github.com/IvankivRLCoder" target="_blank">GitHub</md-button>
-                </h4>
-            </md-card-content>
         </mb-card-actions>
         <mb-card layout-align="center center" layout="column" flex-order>
             <h2 class="h-contacts">Contacts</h2>
             <md-chips>
                 <md-chip class="sm-item-contacts md-subhead">Phone number: +380636061902</md-chip>
-                <md-chip class="sm-item-contacts md-subhead">Skype: stalna9i_krusa </md-chip>
-                <md-chip class="sm-item-contacts md-subhead">Email: <a href="mailto:IvankivRLCoder@gmail.com">IvankivRLCoder@gmail.com</a></md-chip>
+                <!-- <md-chip class="sm-item-contacts md-subhead">Skype: stalna9i_krusa </md-chip> -->
+                <md-chip class="sm-item-contacts md-subhead">Email:
+                    <a href="mailto:IvankivRLCoder@gmail.com">IvankivRLCoder@gmail.com</a>
+                </md-chip>
                 <md-chip class="sm-item-contacts md-subhead">Address: Lviv, Ukraine</md-chip>
             </md-chips>
         </mb-card>
@@ -74,17 +73,19 @@
                     <h2 class="h-contatent">Technical Skills:</h2>
                     <md-chips>
                         <md-chip class="sm-item-skill">HTML5</md-chip>
-                        <md-chip class="sm-item-skill">CSS3</md-chip>
+                        <md-chip class="sm-item-skill">CSS3 SCSS</md-chip>
                         <md-chip class="sm-item-skill">JavaScript</md-chip>
-                        <md-chip class="sm-item-skill">AngularJS 1</md-chip>
+                        <md-chip class="sm-item-skill">AngularJS 2-5</md-chip>
+                        <md-chip class="sm-item-skill">jQuery</md-chip>
+                        <md-chip class="sm-item-skill">REST API</md-chip>
                         <md-chip class="sm-item-skill">jQuery</md-chip>
                         <md-chip class="sm-item-skill">Wordpress</md-chip>
                         <md-chip class="sm-item-skill">Magento 1.9</md-chip>
                         <md-chip class="sm-item-skill">Angular-Material</md-chip>
                         <md-chip class="sm-item-skill">Bootstrap</md-chip>
-                        <md-chip class="sm-item-skill">Greensock</md-chip>  
+                        <md-chip class="sm-item-skill">Greensock</md-chip>
                         <md-chip class="sm-item-skill">Youtube API</md-chip>
-                        <md-chip class="sm-item-skill">Gulp</md-chip> 
+                        <md-chip class="sm-item-skill">Gulp</md-chip>
                         <md-chip class="sm-item-skill">Jade, haml</md-chip>
                         <md-chip class="sm-item-skill">Sass, stylus</md-chip>
                         <md-chip class="sm-item-skill">Responsive design</md-chip>
@@ -95,18 +96,20 @@
                         <md-chip class="sm-item-skill">Adobe Photoshop</md-chip>
                         <md-chip class="sm-item-skill">InVision</md-chip>
                         <md-chip class="sm-item-skill">WebStorm</md-chip>
-                        <md-chip class="sm-item-skill">Visual Studio Code</md-chip>
+                        <md-chip class="sm-item-skill">Visual Studio Coder</md-chip>
                         <md-chip class="sm-item-skill">Pingendo</md-chip>
+                        <md-chip class="sm-item-skill">MailChimp template</md-chip>
                         <md-chip class="sm-item-skill">SourceTree</md-chip>
                         <md-chip class="sm-item-skill">GitHub</md-chip>
                         <md-chip class="sm-item-skill">GitLab</md-chip>
                         <md-chip class="sm-item-skill">Bitbucket</md-chip>
-                        <md-chip class="sm-item-skill">MailChimp</md-chip>
+                        <md-chip class="sm-item-skill">Jira</md-chip>
+
                     </md-chips>
                     <h2 class="h-contatent">Languages:</h2>
                     <md-chips>
                         <md-chip class="sm-item-skill">Ukraine - Native or bilingual</md-chip>
-                        <md-chip class="sm-item-skill">Russian - Full professional</md-chip>
+                        <md-chip class="sm-item-skill">Russian - Professional</md-chip>
                         <md-chip class="sm-item-skill">English - Intermediate</md-chip>
                     </md-chips>
                 </md-card-content>
@@ -115,25 +118,23 @@
                 <md-card-content>
                     <h2 class="h-contatent">About me</h2>
                     <h4 class="h-contatent">If you want to understand who I am. Read the text.</h4>
-                    <p class="about-p">I don't want to talk a lot, but I want to let you know what
-                        kind of person am I. To start with, as far as I can remember myself, I am always
-                        trying to earn with margin. My experience had started since I was a child, I was
-                        selling on the market all sorts of useless stuff to people. After, I had been
-                        working as a merchandiser, a sales manager, one of the youngest team leaders in
-                        corporation, and a position of the monopolistic tobacco corporation sales manager
-                        was mine. The constant desire to develop and learn something new was unrestrained,
-                        so, after some time, I understood that I want to become more than just a sales manager.
-                        However, to achieve more I needed to get extra skills, which I could get only by learning.
-                        It was a quick decision, as I understood, that it is the matter of time for me.
-                        I chose a hardcore scene for myself. My wife was on maternity leave and my daughter
-                        was only 4 month, so my dismissal was a real shock for my family and actually for myself.
-                        But it was my goal: to shock myself and my mind, because my brain works better under
-                        such conditions. So what I had at that time: a goal to find a job and become a part of
-                        a nice stuff on a position of junior frontend developer not later than in 6 month after
-                        dismissal, because according to my SMART, there were no savings for longer period. At the moment,
-                        I can confidently say that these 6 months have passed and I was able to get a work on 5 months!
-                        In fact, when you work with something interesting, time is passing so quickly and you have a
-                        wish to add some extra hours to a day. Making every effort to the work I always gain needed results.
+                    <p class="about-p">I don't want to talk a lot, but I want to let you know what kind of person am I. To start with, as far
+                        as I can remember myself, I am always trying to earn with margin. My experience had started since
+                        I was a child, I was selling on the market all sorts of useless stuff to people. After, I had been
+                        working as a merchandiser, a sales manager, one of the youngest team leaders in corporation, and
+                        a position of the monopolistic tobacco corporation sales manager was mine. The constant desire to
+                        develop and learn something new was unrestrained, so, after some time, I understood that I want to
+                        become more than just a sales manager. However, to achieve more I needed to get extra skills, which
+                        I could get only by learning. It was a quick decision, as I understood, that it is the matter of
+                        time for me. I chose a hardcore scene for myself. My wife was on maternity leave and my daughter
+                        was only 4 month, so my dismissal was a real shock for my family and actually for myself. But it
+                        was my goal: to shock myself and my mind, because my brain works better under such conditions. So
+                        what I had at that time: a goal to find a job and become a part of a nice stuff on a position of
+                        junior frontend developer not later than in 6 month after dismissal, because according to my SMART,
+                        there were no savings for longer period. At the moment, I can confidently say that these 6 months
+                        have passed and I was able to get a work on 5 months! In fact, when you work with something interesting,
+                        time is passing so quickly and you have a wish to add some extra hours to a day. Making every effort
+                        to the work I always gain needed results.
                         <br/>
                         <md-button class="about-p sm-item-about" ng-click="openOffscreen5()">Українською</md-button>
                         <br/>
@@ -144,198 +145,194 @@
         <div layout="row" layout-align="center center" layout-wrap class="wring" layout-padding>
             <h3 class="warn" layout-align="center center" layout-padding>I positioned myself as a Front End developer, but I have great passion for creating something beautiful.</h3>
         </div>
-            <md-content>
-                <div class="experience" layout="column" layout-gt-xs="row">
-                    <md-card class="education style-1" flex layout-align="start center">
-                        <md-card-content>
-                            <h2 class="h-contatent">Education</h2>
-                            <p class="about-p">In 2016 Web UI Developer.
-                                <br/>Learning the most popular at last time language - JavaScript, frameworks like jQuery, AngularJS,
-                                <br/>ReactJS, NodeJS librires and tools for front-end development, and how productively work in a team.
-                                <br/>
-                                <br/>2009-2014
-                                <br/>In 2014 completed the full course of Ivan Franko National University of Lviv
-                                <br/>and obtained complete higher education in the "Management of Organizations and Administration".
-                                <br/>
-                                <br/>
-                            </p>
-                            <h4 class="h-contatent">Additional learning experience:</h4>
-                            <h5 class="h-contatent">Independent Coursework</h5>
-                            <p class="about-p">- Angular-Material training
-                                <br/>
-                            </p>
-                            <p class="about-p">- Display Flex training
-                                <br/>
-                                </p>
-                            <p class="about-p">- Database Optimization (basics)
-                                <br/>
-                            </p>
-                            <h5 class="h-contatent">Training on management and sales</h5>
-                            <p class="about-p">
-                                - Steps of sales manager.
-                                <br/>- Improving the searching customer skills.
-                                <br/>- Improving communication skills including communication with customers.
-                                <br/>- The philosophy and practice of tangible and intangible incentives for staff.
-                                <br/>- Improving skills in the ability to manage personal time and the time for my team.
-                                <br/>
-                            </p>
-                        </md-card-content>
-                    </md-card>
-                    <md-card class="education style-1" flex  layout="row">
-                        <md-card-content flex layout-align="center center" >
-                            <h2 class="h-contatent">Practical Projects</h2>
-                            <h4 class="h-contatent">Stonyy  02.2016 (present)</h4>
-                            <p class="about-p">
-                                - HTML5 and SCSS (flex);<br/>
-                                - Gulp;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                                - Magento 1.9;<br/>
-                            </p>
-                            <p class="about-p">
-                                The team consists of 3 developers (lead PHP dev, 2 frontend developers).
-                                I was responsible for frontend stack. I coped with website slicing
-                                with Net CSS.
-                            </p>
-                            <h4 class="h-contatent">VeryGoodSecurity  01-02.2016 (2 months)</h4>
-                            <p class="about-p">
-                                - Haml and SCSS (flex);<br/>
-                                - JavaScript;<br/>
-                                - jQuery \ jQuery UI;<br/>
-                                - MailChimp<br/>
-                                - MiddleMan server<br/>
-                            </p>
-                            <p class="about-p">
-                                I worked alone. Firstly,  I worked on the development of MailChimp letter. 
-                                Then I created a page for the main site (2560px-320px). I used InVision to work with design.
-                            </p>
-                            <h4 class="h-contatent">SBSCOM  11-01.2016-2017 (3 months)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                                - WordPress<br/>
-                            </p>
-                            <p class="about-p">
-                                The team consists of 3 developers (BackEnd dev, and 2 FrontEnd dev) and 1 QI.
-                            </p>
-                            <h4 class="h-contatent">Accounting Plus  10-11.2016 (2 months)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                            </p>
-                            <p class="about-p">
-                                I worked alone. I created a main site.
-                            </p>
-                            <h4 class="h-contatent">SOFTPROM by ERC  09-12.2016 (4 months)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                                - Magento 1.9;<br/>
-                            </p>
-                            <p class="about-p">
-                                The team consists of 2 developers (lead PHP dev, frontend) and 1 QI.
-                                I was responsible for frontend stack. I coped with website slicing
-                                with Net CSS, and learnt about the specifics of Magento 1.9.
-                            </p>
-                            <h4 class="h-contatent">Chiquita Bananas  08-09.2016 (2 months)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                                - Bootstrap;<br/>
-                                - Drupal 8;<br/>
-                            </p>
-                            <p class="about-p">
-                                I was engaged in the implementation of the project design as well
-                                as webpage slicing using bootstrap, afterwards actualized it for
-                                Drupal 8. Within this period, I improved the knowledge of the website
-                                slicing with bootstrap, and learnt about the specifics of Drupal 8.
-                                I gained a lot of experience and qualified consulting on the topic.
-                            </p>
-                            <h4 class="h-contatent">AngelHack 'TOLOKA'  06.2016 (60 hours non-stop)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - jQuery;<br/>
-                                - Materializecss;<br/>
-                            </p>
-                            <p class="about-p">
-                                We believe, that our project help to increase volunteering worldwide by
-                                developing software and a social network that helps nonprofits,
-                                communities, and volunteers manage and promote their efforts.
-                                Our audience was to target the people that don’t volunteer
-                                as much because they see it as a super serious thing that will suck up all their time.
-                                My role in this project is to create and develop page using
-                                materializecss and Java Script. Present front end of the jury and mentors.
-                            </p>
-                            <h4 class="h-contatent">Barcode informer  05.2016 (1 month)</h4>
-                            <p class="about-p">
-                                - HTML5 and CSS3;<br/>
-                                - JavaScript;<br/>
-                                - Angular JS;<br/>
-                                - Angular-Material;<br/>
-                                - SASS;<br/>
-                            </p>
-                             <p class="about-p">
-                                 The goal of this project was to get lowest price related informations from
-                                 the most popular online stores (eBay, Amazon, MusicMagpie, Zapper, Ziffit)
-                                 by provided barcode, parse, filter and display that. The team consists of 3
-                                 developers - lead, frontend and backend. I was responsible for frontend stack.
-                                 The project used Angular Material, SASS, Ajax and RESTfull approach. On the
-                                 backend we used PHP. Data was kept on users' browser local storage and on MySQL
-                                 on backend. I was responsible for the appearance of the page, and shows data
-                                 that sent me backend.
-                             </p>
-                             <br/>
-                             <br/>
-                        </md-card-content>
-                    </md-card>
-                    <md-card>
-                        <md-card-content class="education" flex layout-align="center center">
-                            <h2 class="h-contatent">Experience</h2>
-                            <div class="md-padding" layout="row" ng-cloak>
-                                <div layout="column" layout-align="center start" layout-padding>
-                                    <div class="dialog-demo-content" layout="column" layout-align="center center">
-                                        <md-button class="expButtom" ng-click="openOffscreen0()">AgiliWay Group, Inc.</md-button>
-                                        <md-button class="expButtom" ng-click="openOffscreen1()">CURSOR Education</md-button>
-                                        <md-button class="expButtom" ng-click="openOffscreen2()">Megapolis Ukraine</md-button>
-                                        <md-button class="expButtom" ng-click="openOffscreen3()">S.I. Group</md-button>
-                                    </div>
+        <md-content>
+            <div class="experience" layout="column" layout-gt-xs="row">
+                <md-card class="education style-1" flex layout-align="start center">
+                    <md-card-content>
+                        <h2 class="h-contatent">Education</h2>
+                        <p class="about-p">In 2016 Web UI Developer.
+                            <br/>Learning the most popular at last time language - JavaScript, frameworks like jQuery, AngularJS,
+                            <br/>ReactJS, NodeJS librires and tools for front-end development, and how productively work in a
+                            team.
+                            <br/>
+                            <br/>2009-2014
+                            <br/>In 2014 completed the full course of Ivan Franko National University of Lviv
+                            <br/>and obtained complete higher education in the "Management of Organizations and Administration"
+                            <br/>and obtained qualification of Specialist in Management of Organizations and Administration,
+                            <br/>Menager-Economist.
+                            <br/>
+                            <br/>
+                        </p>
+                        <h4 class="h-contatent">Additional learning experience:</h4>
+                        <h5 class="h-contatent">Independent Coursework</h5>
+                        <p class="about-p">- Angular-Material training
+                            <br/>
+                        </p>
+                        <h5 class="h-contatent">Training on management and sales</h5>
+                        <p class="about-p">
+                            - Steps of sales manager.
+                            <br/>- Improving the searching customer skills.
+                            <br/>- Improving communication skills including communication with customers.
+                            <br/>- The philosophy and practice of tangible and intangible incentives for staff.
+                            <br/>- Improving skills in the ability to manage personal time and the time for my team.
+                            <br/>
+                        </p>
+                    </md-card-content>
+                </md-card>
+                <md-card class="education style-1" flex layout="row">
+                    <md-card-content flex layout-align="center center">
+                        <h2 class="h-contatent">Practical Projects</h2>
+                        <h4 class="h-contatent">Atlassian addons development at BrizoIT - 05.2017 (present)</h4>
+                        <p class="about-p">
+                            - HTML5 and SCSS;
+                            <br/> - Angular 2-5;
+                            <br/> - REST API;
+                            <br/> - Jira;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The team consists of 2 developers (BackEnd dev, and 1 FrontEnd dev).
+                        </p>
+                        <h4 class="h-contatent">Futab - 04.2017 (1 month)</h4>
+                        <p class="about-p">
+                            - HTML5 and SCSS;
+                            <br/> - Angular 2;
+                            <br/> - Ionic 2;
+                            <br/> - REST API;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The team consists of 2 developers (BackEnd dev, and 1 FrontEnd dev).
+                        </p>
+                        <h4 class="h-contatent">Stonyy - 01.2017 (3 months)</h4>
+                        <p class="about-p">
+                            - HTML5 and SCSS;
+                            <br/> - JavaScript;
+                            <br/> - jQuery;
+                            <br/> - Magento 1.9;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The team consists of 3 developers (lead PHP dev, frontend) and 1 QI.
+                        </p>
+                        <h4 class="h-contatent">SBS - 01.2017 (2 months)</h4>
+                        <p class="about-p">
+                            - HTML5 and CSS3;
+                            <br/> - JavaScript;
+                            <br/> - jQuery;
+                            <br/> - WordPress
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The team consists of 3 developers (BackEnd dev, and 2 FrontEnd dev) and 1 QI.
+                        </p>
+                        <h4 class="h-contatent">SOFTPROM by ERC - 09-12.2016 (4 months)</h4>
+                        <p class="about-p">
+                            - HTML5 and CSS3;
+                            <br/> - JavaScript;
+                            <br/> - jQuery;
+                            <br/> - Magento 1.9;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The team consists of 2 developers (lead PHP dev, frontend) and 1 QI. I was responsible for frontend stack. I coped with website
+                            slicing with Net CSS, and learnt about the specifics of Magento 1.9.
+                        </p>
+                        <h4 class="h-contatent">Chiquita Bananas - 08-09.2016 (2 months)</h4>
+                        <p class="about-p">
+                            - HTML5 and CSS3;
+                            <br/> - JavaScript;
+                            <br/> - jQuery;
+                            <br/> - Bootstrap;
+                            <br/> - Drupal 8;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            I was engaged in the implementation of the project design as well as webpage slicing using bootstrap, afterwards actualized
+                            it for Drupal 8. Within this period, I improved the knowledge of the website slicing with bootstrap,
+                            and learnt about the specifics of Drupal 8. I gained a lot of experience and qualified consulting
+                            on the topic.
+                        </p>
+                        <h4 class="h-contatent">AngelHack 'TOLOKA' - 06.2016 (60 hours non-stop)</h4>
+                        <p class="about-p">
+                            - HTML5 and CSS3;
+                            <br/> - JavaScript;
+                            <br/> - jQuery;
+                            <br/> - Materializecss;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            We believe, that our project help to increase volunteering worldwide by developing software and a social network that helps
+                            nonprofits, communities, and volunteers manage and promote their efforts. Our audience was to
+                            target the people that don’t volunteer as much because they see it as a super serious thing that
+                            will suck up all their time. My role in this project is to create and develop page using materializecss
+                            and Java Script. Present front end of the jury and mentors.
+                        </p>
+                        <h4 class="h-contatent">Barcode informer - 05.2016 (2 weeks)</h4>
+                        <p class="about-p">
+                            - HTML5 and CSS3;
+                            <br/> - JavaScript;
+                            <br/> - Angular JS;
+                            <br/> - Angular-Material;
+                            <br/> - SASS;
+                            <br/>
+                        </p>
+                        <p class="about-p">
+                            The goal of this project was to get lowest price related informations from the most popular online stores (eBay, Amazon,
+                            MusicMagpie, Zapper, Ziffit) by provided barcode, parse, filter and display that. The team consists
+                            of 3 developers - lead, frontend and backend. I was responsible for frontend stack. The project
+                            used Angular Material, SASS, Ajax and RESTfull approach. On the backend we used PHP. Data was
+                            kept on users' browser local storage and on MySQL on backend. I was responsible for the appearance
+                            of the page, and shows data that sent me backend.
+                        </p>
+                    </md-card-content>
+                </md-card>
+                <md-card>
+                    <md-card-content class="education" flex layout-align="center center">
+                        <h2 class="h-contatent">Experience</h2>
+                        <div class="md-padding" layout="row" ng-cloak>
+                            <div layout="column" layout-align="center start" layout-padding>
+                                <div class="dialog-demo-content" layout="column" layout-align="center center">
+                                    <md-button class="expButtom" ng-click="openOffscreen2()">BrizoIT</md-button>
+                                    <md-button class="expButtom" ng-click="openOffscreen0()">AgiliWay Group, Inc.</md-button>
+                                    <md-button class="expButtom" ng-click="openOffscreen1()">CURSOR Education</md-button>
+                                    <!--<md-button class="expButtom" ng-click="openOffscreen3()">S. Group</md-button>
+                                    <md-button class="expButtom" ng-click="openOffscreen4()">ТзОВ 'Агросахінвест'</md-button> -->
                                 </div>
                             </div>
-                        </md-card-content>
-                    </md-card>
-                </div>
-            </md-content>
-        <!--<div layout="row" layout-align="center center" layout-wrap flex class="wring">
-            <h3 class="warn" layout-align="center center" layout-padding >Any photos from different events.</h3>
-        </div>-->
-            <md-content class="content-fotos" layout-align="center center" flex layout="row">
-                    <md-card class="card-title"  flex-gt-xs="30" layout-align="center center">
-                        <md-card-avatar flex>
-                            <img class="md-user-avatar" src="img/foto-1.jpg" alt="photo is missing">
-                        </md-card-avatar>
-                    </md-card>
-                    <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
-                        <md-card-avatar flex>
-                            <img class="md-user-avatar" src="img/foto-2.jpg" alt="photo is missing">
-                        </md-card-avatar>
-                    </md-card>
-                    <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
-                        <md-card-avatar flex>
-                            <img class="md-user-avatar" src="img/foto-3.jpg" alt="photo is missing">
-                        </md-card-avatar>
-                    </md-card>
-                    <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
-                        <md-card-avatar flex>
-                            <img class="md-user-avatar" src="img/foto-4.jpg" alt="photo is missing">
-                        </md-card-avatar>
-                    </md-card>
-            </md-content>
-        <div layout="row" layout-align="center center" layout-wrap><a href="https://www.linkedin.com/in/romanivankiv" class="copy" id="autor" target="_blank">&copy; Created by IvankivRLCoder</a></div>
+                        </div>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </md-content>
+        <div layout="row" layout-align="center center" layout-wrap flex class="wring">
+            <h3 class="warn" layout-align="center center" layout-padding>Any photos from different events.</h3>
+        </div>
+        <md-content class="content-fotos" layout-align="center center" flex layout="row">
+            <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
+                <md-card-avatar flex>
+                    <img class="md-user-avatar" src="img/foto-1.jpg" alt="photo is missing">
+                </md-card-avatar>
+            </md-card>
+            <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
+                <md-card-avatar flex>
+                    <img class="md-user-avatar" src="img/foto-2.jpg" alt="photo is missing">
+                </md-card-avatar>
+            </md-card>
+            <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
+                <md-card-avatar flex>
+                    <img class="md-user-avatar" src="img/foto-3.jpg" alt="photo is missing">
+                </md-card-avatar>
+            </md-card>
+            <md-card class="card-title" flex-gt-xs="30" layout-align="center center">
+                <md-card-avatar flex>
+                    <img class="md-user-avatar" src="img/foto-4.jpg" alt="photo is missing">
+                </md-card-avatar>
+            </md-card>
+        </md-content>
+        <div layout="row" layout-align="center center" layout-wrap>
+            <a href="https://www.linkedin.com/in/romanivankiv" class="copy" id="autor" target="_blank">&copy; Created by IvankivRLCoder</a>
+        </div>
     </mb-content>
 </body>
 
